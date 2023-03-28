@@ -1,4 +1,4 @@
-.modal-backdrop {
+.modal__backdrop {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -11,7 +11,7 @@
   z-index: 999;
 }
 
-.modal-content {
+.modal__content {
   max-width: 60%;
   min-height: 200px;
   background: #ffffff;
@@ -24,11 +24,4 @@
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
-}
-
-.modal-union {
-  position: absolute;
-  right: 22px;
-  top: 22px;
-  cursor: pointer;
 }

@@ -6,9 +6,11 @@ import style from './Home.module.scss';
 const Home = () => {
   const navigate = useNavigate();
   return (
-    <div className={style.wrapper}>
-      <span className={style.wrapper__exit} onClick={() => navigate('/')}>Exit</span>
-    </div>
+    <>
+      <button className={style.wrapper} onClick={() => navigate('/')}>
+        click on exit
+      </button>
+    </>
   );
 };
 

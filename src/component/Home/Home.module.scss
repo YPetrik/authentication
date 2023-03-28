@@ -1,10 +1,12 @@
 .wrapper {
+  max-width: 400px;
+  max-height: 400px;
+  display: block;
+  background: #fff;
   color: black;
-  max-width: 200px;
-  max-height: 200px;
-
-  &__exit {
-    display: block;
-    background-color: aquamarine;
-  }
+  box-shadow: -10px 7px 20px rgba(0, 0, 0, 0.25);
+  margin: 40px auto;
+  font-size: -webkit-xxx-large;
+  padding: 80px;
+  border-radius: 10px;
 }

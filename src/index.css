@@ -6,6 +6,7 @@
   border: 0;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -45,16 +46,13 @@ button {
   cursor: pointer;
   background-color: inherit;
 }
-/* - - - - - - - - */
-@import url(https://fonts.googleapis.com/css?family=Manrope:regular,600);
 
-/* - - - - - - - - */
+@import url(https://fonts.googleapis.com/css?family=Manrope:regular,600);
 
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 14px;
   line-height: 19px;
-  color: #fff;
   background: url('./assets/img/fon.png') center center no-repeat fixed;
   background-size: cover;
   padding-top: 214px;

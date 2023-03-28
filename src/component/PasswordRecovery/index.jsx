@@ -1,8 +1,9 @@
 import React from 'react';
-import style from './PasswordRecovery.module.scss';
-
 import { useNavigate } from 'react-router-dom';
+
 import Modal from '../Modal';
+
+import style from './PasswordRecovery.module.scss';
 
 const PasswordRecovery = () => {
   const [modal, setModal] = React.useState(false);

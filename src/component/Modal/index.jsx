@@ -1,13 +1,14 @@
-import './Modal.css';
+import style from './Modal.module.scss';
+
 const Modal = ({ children, shown, close }) => {
   return shown ? (
     <div
-      className="modal-backdrop"
+      className={style.modal__backdrop}
       onClick={() => {
         close();
       }}>
       <div
-        className="modal-content"
+        className={style.modal__content}
         onClick={(e) => {
           e.stopPropagation();
         }}>

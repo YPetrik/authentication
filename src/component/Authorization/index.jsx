@@ -4,15 +4,17 @@ import { useNavigate, useParams } from 'react-router-dom';
 import InputMask from 'react-input-mask';
 
 import style from './Authorization.module.scss';
+
 const Authorization = () => {
   const [inputPhone, setInputPhone] = React.useState('');
   const [inputPassword, setInputPassword] = React.useState('');
   const [textLoginError, setTextLoginError] = React.useState('');
   const [textPasswordError, setTextPasswordError] = React.useState('');
 
-  const navigate = useNavigate();
-  const params = useParams();
   const inputPhoneMask = React.useRef();
+
+  const params = useParams();
+  const navigate = useNavigate();
 
   const onAuthorizationHandler = (e) => {
     e.preventDefault();
